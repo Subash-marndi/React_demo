@@ -2,8 +2,10 @@
 // import LearnReact from "./components/LearnReact"
 // import LearnJSX from "./components/temp"
 // import Learnprops from "./components/Learnprops"
+import LearnCounterapp from "./components/LearnCounterapp"
 import LearnEvents from "./components/LearnEvents"
 import LearnListingStateup from "./components/LearnListingStateup"
+import LearnUseEffect from "./components/LearnUseEffect"
 import LearnUseState from "./components/LearnUseState"
 
 
@@ -18,14 +20,16 @@ function App() {
 
   return (
     <>
-    <h1>App Components</h1>
+    {/* <h1>App Components</h1> */}
     {/* <HelloWorld></HelloWorld>
     <LearnReact></LearnReact> */}
     {/* <LearnJSX/> */}
     {/* <Learnprops stock = 'Tata'  price = {price} /> */}
     {/* <LearnEvents /> */}
     {/* <LearnListingStateup getStock = {getStock}/> */}
-    <LearnUseState />
+    {/* <LearnUseState /> */}
+    {/* <LearnCounterapp /> */}
+    <LearnUseEffect />
     
       
 
