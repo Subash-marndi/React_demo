@@ -11,6 +11,9 @@ import LearnUseEffect from "./components/LearnUseEffect"
 import LearnUseMemo from "./components/LearnUseMemo"
 import LearnUseState from "./components/LearnUseState"
 import LearnUseContext from "./components/LearnUseContext"
+import LearnUseRef from "./components/LearnUseRef"
+
+import LearnCustomHooks from "./components/LearnCustomHooks"
 
 // Create context
 const StockContext = createContext()
@@ -43,12 +46,15 @@ function App() {
     {/* <LearnUseEffect /> */}
     {/* <LearnUseMemo /> */}
 
-  {/* Providder */}
+  {/* Providder :
     <StockContext.Provider value ={{stock ,price}}>
     <UserContext.Provider value ={user}>
     <LearnUseContext  />
     </UserContext.Provider>
-    </StockContext.Provider>
+    </StockContext.Provider> */}
+
+    {/* <LearnUseRef /> */}
+   <LearnCustomHooks />
     
       
 
