@@ -6,6 +6,7 @@ import LearnCounterapp from "./components/LearnCounterapp"
 import LearnEvents from "./components/LearnEvents"
 import LearnListingStateup from "./components/LearnListingStateup"
 import LearnUseEffect from "./components/LearnUseEffect"
+import LearnUseMemo from "./components/LearnUseMemo"
 import LearnUseState from "./components/LearnUseState"
 
 
@@ -29,7 +30,8 @@ function App() {
     {/* <LearnListingStateup getStock = {getStock}/> */}
     {/* <LearnUseState /> */}
     {/* <LearnCounterapp /> */}
-    <LearnUseEffect />
+    {/* <LearnUseEffect /> */}
+    <LearnUseMemo />
     
       
 
