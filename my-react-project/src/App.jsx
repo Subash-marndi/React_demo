@@ -14,6 +14,7 @@ import LearnUseContext from "./components/LearnUseContext"
 import LearnUseRef from "./components/LearnUseRef"
 
 import LearnCustomHooks from "./components/LearnCustomHooks"
+import LearnConditionalRendering from "./components/LearnConditionalRendering"
 
 // Create context
 const StockContext = createContext()
@@ -54,7 +55,8 @@ function App() {
     </StockContext.Provider> */}
 
     {/* <LearnUseRef /> */}
-   <LearnCustomHooks />
+   {/* <LearnCustomHooks /> */}
+   <LearnConditionalRendering />
     
       
 
